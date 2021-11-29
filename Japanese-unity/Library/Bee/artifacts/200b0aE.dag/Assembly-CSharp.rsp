@@ -368,6 +368,7 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
 "Assets/Character/PlayerScript.cs"
+"Assets/Scenes/BasicScene/initScene.cs"
 "Assets/Scripts/SimpleCameraController.cs"
 "Assets/TutorialInfo/Scripts/Readme.cs"
 -langversion:9.0

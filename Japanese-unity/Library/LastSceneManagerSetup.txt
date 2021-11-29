@@ -11,19 +11,19 @@ sceneSetups:
   isLoaded: 1
   isActive: 0
   isSubScene: 0
-- path: Assets/Scenes/Scene4_tori/Scene4_tori.unity
-  isLoaded: 1
-  isActive: 1
-  isSubScene: 0
-- path: Assets/Scenes/outro/Outro.unity
-  isLoaded: 1
-  isActive: 0
-  isSubScene: 0
 - path: Assets/Scenes/Scene2_flowers/Scene2_flowers.unity
   isLoaded: 1
   isActive: 0
   isSubScene: 0
 - path: Assets/Scenes/Scene3_house/Scene3_house.unity
+  isLoaded: 1
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Scenes/Scene4_tori/Scene4_tori.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0
+- path: Assets/Scenes/outro/Outro.unity
   isLoaded: 1
   isActive: 0
   isSubScene: 0

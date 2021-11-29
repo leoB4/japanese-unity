@@ -13,19 +13,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2021-11-29T11:36:30.777+01:00
-  initializedAtString: 2021-11-29T11:36:30.772+01:00
+  lastUpdatedAtString: 2021-11-29T18:28:47.637+01:00
+  initializedAtString: 2021-11-29T18:28:47.484+01:00
   localBranches:
   - name: main
     tracking: origin/main
   remoteBranches:
   - name: origin/HEAD
     tracking: '[None]'
-  - name: origin/main
-    tracking: '[None]'
   remotes:
   - name: origin
-    url: git@github.com:leoB4/japanese-unity.git
+    url: https://github.com/leoB4/japanese-unity.git
     login: 
     user: 
     host: 
@@ -38,7 +36,7 @@ MonoBehaviour:
     - name: main
       remote:
         name: origin
-        url: git@github.com:leoB4/japanese-unity.git
+        url: https://github.com/leoB4/japanese-unity.git
       trackingBranch: main
   remoteConfigBranches:
     keys:
@@ -46,22 +44,16 @@ MonoBehaviour:
     subKeys:
     - Values:
       - HEAD
-      - main
     subKeyValues:
     - Values:
       - name: HEAD
         remote:
           name: origin
-          url: git@github.com:leoB4/japanese-unity.git
-        trackingBranch: 
-      - name: main
-        remote:
-          name: origin
-          url: git@github.com:leoB4/japanese-unity.git
+          url: https://github.com/leoB4/japanese-unity.git
         trackingBranch: 
   configRemotes:
     keys:
     - origin
     values:
     - name: origin
-      url: git@github.com:leoB4/japanese-unity.git
+      url: https://github.com/leoB4/japanese-unity.git

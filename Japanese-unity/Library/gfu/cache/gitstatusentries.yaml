@@ -1,0 +1,156 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 995438498, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 6
+  lastUpdatedAtString: 2021-11-29T16:43:40.086+01:00
+  initializedAtString: 2021-11-29T11:45:38.383+01:00
+  entries:
+  - path: Japanese-unity/Library/gfu/cache/gitlog.yaml
+    fullPath: /Users/valentinperso/Documents/Gobelins/Unity/japanese-unity/Japanese-unity/Library/gfu/cache/gitlog.yaml
+    projectPath: Library/gfu/cache/gitlog.yaml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Japanese-unity/Library/gfu/cache/gitstatusentries.yaml
+    fullPath: /Users/valentinperso/Documents/Gobelins/Unity/japanese-unity/Japanese-unity/Library/gfu/cache/gitstatusentries.yaml
+    projectPath: Library/gfu/cache/gitstatusentries.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Japanese-unity/Library/gfu/cache/gittrackingstatus.yaml
+    fullPath: /Users/valentinperso/Documents/Gobelins/Unity/japanese-unity/Japanese-unity/Library/gfu/cache/gittrackingstatus.yaml
+    projectPath: Library/gfu/cache/gittrackingstatus.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Japanese-unity/Library/SourceAssetDB
+    fullPath: /Users/valentinperso/Documents/Gobelins/Unity/japanese-unity/Japanese-unity/Library/SourceAssetDB
+    projectPath: Library/SourceAssetDB
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Japanese-unity/Logs/AssetImportWorker0.log
+    fullPath: /Users/valentinperso/Documents/Gobelins/Unity/japanese-unity/Japanese-unity/Logs/AssetImportWorker0.log
+    projectPath: Logs/AssetImportWorker0.log
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Japanese-unity/Logs/AssetImportWorker1.log
+    fullPath: /Users/valentinperso/Documents/Gobelins/Unity/japanese-unity/Japanese-unity/Logs/AssetImportWorker1.log
+    projectPath: Logs/AssetImportWorker1.log
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Japanese-unity/Logs/shadercompiler-AssetImportWorker0.log
+    fullPath: /Users/valentinperso/Documents/Gobelins/Unity/japanese-unity/Japanese-unity/Logs/shadercompiler-AssetImportWorker0.log
+    projectPath: Logs/shadercompiler-AssetImportWorker0.log
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Japanese-unity/Logs/shadercompiler-UnityShaderCompiler0.log
+    fullPath: /Users/valentinperso/Documents/Gobelins/Unity/japanese-unity/Japanese-unity/Logs/shadercompiler-UnityShaderCompiler0.log
+    projectPath: Logs/shadercompiler-UnityShaderCompiler0.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Japanese-unity/Logs/shadercompiler-UnityShaderCompiler1.log
+    fullPath: /Users/valentinperso/Documents/Gobelins/Unity/japanese-unity/Japanese-unity/Logs/shadercompiler-UnityShaderCompiler1.log
+    projectPath: Logs/shadercompiler-UnityShaderCompiler1.log
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Japanese-unity/Logs/shadercompiler-UnityShaderCompiler2.log
+    fullPath: /Users/valentinperso/Documents/Gobelins/Unity/japanese-unity/Japanese-unity/Logs/shadercompiler-UnityShaderCompiler2.log
+    projectPath: Logs/shadercompiler-UnityShaderCompiler2.log
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Japanese-unity/Logs/shadercompiler-UnityShaderCompiler3.log
+    fullPath: /Users/valentinperso/Documents/Gobelins/Unity/japanese-unity/Japanese-unity/Logs/shadercompiler-UnityShaderCompiler3.log
+    projectPath: Logs/shadercompiler-UnityShaderCompiler3.log
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Japanese-unity/Logs/shadercompiler-UnityShaderCompiler4.log
+    fullPath: /Users/valentinperso/Documents/Gobelins/Unity/japanese-unity/Japanese-unity/Logs/shadercompiler-UnityShaderCompiler4.log
+    projectPath: Logs/shadercompiler-UnityShaderCompiler4.log
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Japanese-unity/Logs/shadercompiler-UnityShaderCompiler5.log
+    fullPath: /Users/valentinperso/Documents/Gobelins/Unity/japanese-unity/Japanese-unity/Logs/shadercompiler-UnityShaderCompiler5.log
+    projectPath: Logs/shadercompiler-UnityShaderCompiler5.log
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Japanese-unity/Logs/shadercompiler-UnityShaderCompiler6.log
+    fullPath: /Users/valentinperso/Documents/Gobelins/Unity/japanese-unity/Japanese-unity/Logs/shadercompiler-UnityShaderCompiler6.log
+    projectPath: Logs/shadercompiler-UnityShaderCompiler6.log
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Japanese-unity/Logs/shadercompiler-UnityShaderCompiler7.log
+    fullPath: /Users/valentinperso/Documents/Gobelins/Unity/japanese-unity/Japanese-unity/Logs/shadercompiler-UnityShaderCompiler7.log
+    projectPath: Logs/shadercompiler-UnityShaderCompiler7.log
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Japanese-unity/Temp/FSTimeGet-166ae245b193b4df29b960ebdfdc990f
+    fullPath: /Users/valentinperso/Documents/Gobelins/Unity/japanese-unity/Japanese-unity/Temp/FSTimeGet-166ae245b193b4df29b960ebdfdc990f
+    projectPath: Temp/FSTimeGet-166ae245b193b4df29b960ebdfdc990f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Japanese-unity/Temp/FSTimeGet-2538bec5b1b0f446aa13aa2c0805d26e
+    fullPath: /Users/valentinperso/Documents/Gobelins/Unity/japanese-unity/Japanese-unity/Temp/FSTimeGet-2538bec5b1b0f446aa13aa2c0805d26e
+    projectPath: Temp/FSTimeGet-2538bec5b1b0f446aa13aa2c0805d26e
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Japanese-unity/Temp/FSTimeGet-600da7268b08e42d38cceeb3156bf58c
+    fullPath: /Users/valentinperso/Documents/Gobelins/Unity/japanese-unity/Japanese-unity/Temp/FSTimeGet-600da7268b08e42d38cceeb3156bf58c
+    projectPath: Temp/FSTimeGet-600da7268b08e42d38cceeb3156bf58c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Japanese-unity/Temp/FSTimeGet-be37752ae94c74b1a97fb740b5b342c5
+    fullPath: /Users/valentinperso/Documents/Gobelins/Unity/japanese-unity/Japanese-unity/Temp/FSTimeGet-be37752ae94c74b1a97fb740b5b342c5
+    projectPath: Temp/FSTimeGet-be37752ae94c74b1a97fb740b5b342c5
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Japanese-unity/Temp/ProcessJobs/05663b07cbc3ffe3632d57b194ca7c19.bakeil
+    fullPath: /Users/valentinperso/Documents/Gobelins/Unity/japanese-unity/Japanese-unity/Temp/ProcessJobs/05663b07cbc3ffe3632d57b194ca7c19.bakeil
+    projectPath: Temp/ProcessJobs/05663b07cbc3ffe3632d57b194ca7c19.bakeil
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Japanese-unity/Temp/ProcessJobs/2a831e215faea9206e167a5bed52d011.bakert
+    fullPath: /Users/valentinperso/Documents/Gobelins/Unity/japanese-unity/Japanese-unity/Temp/ProcessJobs/2a831e215faea9206e167a5bed52d011.bakert
+    projectPath: Temp/ProcessJobs/2a831e215faea9206e167a5bed52d011.bakert
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Japanese-unity/Temp/workerlic
+    fullPath: /Users/valentinperso/Documents/Gobelins/Unity/japanese-unity/Japanese-unity/Temp/workerlic
+    projectPath: Temp/workerlic
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Japanese-unity/UserSettings/Layouts/CurrentMaximizeLayout.dwlt
+    fullPath: /Users/valentinperso/Documents/Gobelins/Unity/japanese-unity/Japanese-unity/UserSettings/Layouts/CurrentMaximizeLayout.dwlt
+    projectPath: UserSettings/Layouts/CurrentMaximizeLayout.dwlt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1

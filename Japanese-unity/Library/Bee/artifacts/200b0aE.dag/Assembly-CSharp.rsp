@@ -369,6 +369,7 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
 "Assets/Character/PlayerScript.cs"
 "Assets/Scenes/BasicScene/initScene.cs"
+"Assets/Scenes/Intro/IntroScript.cs"
 "Assets/Scenes/TriggerZone.cs"
 "Assets/Scripts/SimpleCameraController.cs"
 "Assets/TutorialInfo/Scripts/Readme.cs"

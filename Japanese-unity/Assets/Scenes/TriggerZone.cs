@@ -5,6 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class TriggerZone : MonoBehaviour
 {
+    public bool UnloadScene = false;
+    public string Scene;
+    [SerializeField] private bool isLoaded = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -18,19 +22,26 @@ public class TriggerZone : MonoBehaviour
     }
 
     void OnTriggerEnter(Collider other) {
-        StartCoroutine(LoadingMainMenu());
-        Debug.Log("collid");
+        StartCoroutine(ToDoScene());
     }
 
-    private IEnumerator LoadingMainMenu()
+    private IEnumerator ToDoScene()
     {
-        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync("Scene2_flowers", LoadSceneMode.Additive);
-        // wait until the asynchronous scene fully loads
-        while (!asyncLoad.isDone)
-            yield return null;
+        if (isLoaded) yield break;
 
-        Debug.Log("Scene2_flowers scene loaded!");
-        // TODO init
-        // MainMenu.instance.Initialize();
+        if (UnloadScene)
+        {
+            AsyncOperation asyncLoad = SceneManager.UnloadSceneAsync(Scene);
+            isLoaded = true;
+
+            Debug.Log($"{Scene} scene loaded!");
+        } else {
+            AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(Scene, LoadSceneMode.Additive);
+            isLoaded = true;
+
+            Debug.Log($"{Scene} scene UN-loaded!");
+        }
+
+        yield return null;
     }
 }

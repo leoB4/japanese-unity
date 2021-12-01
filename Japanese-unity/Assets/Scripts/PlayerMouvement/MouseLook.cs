@@ -5,7 +5,11 @@ using UnityEngine;
 public class MouseLook : MonoBehaviour
 {
 
-    public float mouseSensitivity = 100f;
+    public float mouseSensitivityX = 500f;
+    public float mouseSensitivityY = 2500f;
+
+    public float topAngleMax = -15f;
+    public float botAngleMax = 5f;
 
     public Transform playerBody;
 
@@ -17,11 +21,12 @@ public class MouseLook : MonoBehaviour
 
     void Update()
     {
-        float mouseX = Input.GetAxis("Mouse X") * mouseSensitivity * Time.deltaTime;
-        float mouseY = Input.GetAxis("Mouse Y") * mouseSensitivity * Time.deltaTime;
+        float mouseX = Input.GetAxis("Mouse X") * mouseSensitivityX * Time.deltaTime;
+        float mouseY = Input.GetAxis("Mouse Y") * mouseSensitivityY * Time.deltaTime;
 
-        xRotation -= mouseY;
-        xRotation = Mathf.Clamp(xRotation, -90f, 90f);
+        xRotation -= mouseY / 100f;
+        //             angle             top,  bottom
+        xRotation = Mathf.Clamp(xRotation, topAngleMax, botAngleMax);
         
         transform.localRotation = Quaternion.Euler(xRotation,0,0);
         playerBody.Rotate(Vector3.up * mouseX);

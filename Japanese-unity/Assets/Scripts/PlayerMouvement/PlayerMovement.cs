@@ -54,7 +54,7 @@ public class PlayerMovement : MonoBehaviour
         
         
         _animIDSpeed = Animator.StringToHash("Blend");
-        _animator.SetFloat(_animIDSpeed, (move * speed ).magnitude);
+        _animator.SetFloat(_animIDSpeed, (move * speed  ).magnitude);
     }
 
     public bool IsMoving(){
